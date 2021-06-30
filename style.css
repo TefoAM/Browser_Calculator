@@ -1,0 +1,113 @@
+body{
+    font-family: 'Calibri', 'Arial';
+    background-color: black;
+    color: cornsilk;
+}
+
+#container {
+    width: 1000px;
+    height: 550px;
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(bgImg.png);
+    margin: 20px auto;
+}
+
+#calculator{
+    width: 320px;
+    height: 520px;
+    background-color: rgb(209, 209, 209);
+    margin: 0 auto;
+    position: relative;
+    top: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+}
+#footer{
+    padding-top: 2px;
+    width: 320px;
+    margin: 0 auto;
+    font-size: 9px;
+    color: black;
+}
+
+#result{
+    height: 120px;
+}
+
+#history{
+    text-align: right;
+    height: 20px;
+    margin: 0 20px;
+    padding-top: 20px;
+    font-size: 15px;
+    color: rgb(112, 111, 111);
+}
+#output{
+    text-align: right;
+    height: 60px;
+    margin: 10px 20px;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+}
+
+#keyboard{
+    height: 400px;
+}
+
+.operator, .number{
+    width: 50px;
+    height: 50px;
+    margin: 15px;
+    float: left;
+    border-radius: 30%;
+    border-width: 0px;
+    box-shadow: 2px 4px 5px 0 rgb(134, 134, 134),0 6px 20px 0 rgba(134, 134, 134, 0.19);
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.operator:active, .number:active{
+    color: blue;
+    font-size: 12px;
+}
+
+.operator{
+    font-weight: bold;
+}
+
+.empty{
+    background-color: rgb(209, 209, 209);
+    width: 50px;
+    height: 50px;
+    margin: 15px;
+    float: left;
+    border-radius: 30%;
+    border-width: 0px;
+    font-size: 15px;
+}
+
+button:nth-child(4){
+    font-size: 25px;
+    background-color: rgb(238, 255, 5);
+}
+
+button:nth-child(8){
+    font-size: 25px;
+    background-color: rgb(255, 5, 234);
+}
+
+button:nth-child(12){
+    font-size: 25px;
+    background-color: rgb(255, 105, 5);
+}
+
+button:nth-child(16){
+    font-size: 25px;
+    background-color: rgb(93, 5, 255);
+}
+button:nth-child(20){
+    font-size: 25px;
+    background-color: rgb(9, 44, 139);
+    color: rgb(212, 212, 212);
+}
+
+
